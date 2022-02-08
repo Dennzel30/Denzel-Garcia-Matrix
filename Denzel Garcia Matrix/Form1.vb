@@ -1611,7 +1611,7 @@
                 CType(crtl, TextBox).Text = String.Empty
             End If
         Next
-    End Sub
+    End Sub 'Clear Main
     Private Sub cl_Click(sender As Object, e As EventArgs) Handles cl.Click
         'Clear
         cleartextbox(Me)
@@ -5595,6 +5595,9 @@
                 '2x2
 
 
+                adj.Text = ad.ToString()
+                MessageBox.Show("Cannot Inverse")
+                adj.Clear()
 
                 MessageBox.Show("Cannot Divide")
 
