@@ -5595,6 +5595,9 @@
                 '2x2
 
 
+                adj.Text = ad.ToString()
+                MessageBox.Show("Cannot Inverse")
+                adj.Clear()
 
                 MessageBox.Show("Cannot Divide")
 
